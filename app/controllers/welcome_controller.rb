@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-    HardJob.perform_in(5.minutes, 'bob', 5)
+    HardJob.perform_in(5.minutes.from_now)
+    HardJob.perform_async
   end
 end
