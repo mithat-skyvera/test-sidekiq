@@ -71,4 +71,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem "sidekiq", "~> 5.2.8"
+gem "sidekiq", "~> 7.1"
+gem 'redis-client'
