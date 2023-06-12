@@ -1,7 +1,7 @@
 class HardJob
   include Sidekiq::Job
 
-  def perform(*args)
+  def perform(name, count)
     puts "Sidekiq HardJob is running"
   end
 end
