@@ -10,4 +10,4 @@ Sidekiq.configure_client do |config|
   config.redis = {
     url: "redis://#{redis_config['host']}:#{redis_config['port']}"
   }
-ends
+end
