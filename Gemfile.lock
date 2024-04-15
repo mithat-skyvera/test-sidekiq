@@ -177,6 +177,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
+    sd_notify (0.1.1)
     selenium-webdriver (4.9.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -233,10 +234,11 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   pg (~> 1.1)
-  puma (~> 5.0)
+  puma
   rails (~> 7.0.4)
   redis (~> 4.0)
   redis-client
+  sd_notify
   selenium-webdriver
   sidekiq (< 7)
   sprockets-rails
